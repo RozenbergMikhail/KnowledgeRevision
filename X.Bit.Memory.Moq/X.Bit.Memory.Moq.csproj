@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\X.Bit.Memory\X.Bit.Memory.csproj" />
+    <ProjectReference Include="..\X.Bit.Moq\X.Bit.Moq.csproj" />
+    <ProjectReference Include="..\X.Bit\X.Bit.csproj" />
+  </ItemGroup>
+
+</Project>

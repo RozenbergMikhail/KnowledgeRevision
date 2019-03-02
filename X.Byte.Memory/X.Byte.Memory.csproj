@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\X.Bit.Memory\X.Bit.Memory.csproj" />
+    <ProjectReference Include="..\X.Byte\X.Byte.csproj" />
+  </ItemGroup>
+
+</Project>

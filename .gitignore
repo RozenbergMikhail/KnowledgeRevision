@@ -1,0 +1,12 @@
+.vs/
+[Dd]ebug/
+[Oo]bj/
+[Bb]in/
+packages/
+/Output/
+.idea/
+.vscode/
+.DS_Store
+*.suo
+*.user
+*.DotSettings
